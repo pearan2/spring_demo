@@ -1,0 +1,115 @@
+2023-12-31 14:59:59 [restartedMain] INFO  : Starting DemoApplication using Java 17.0.2 with PID 86571 (/Users/honlee/Desktop/spring_jpa_guide/demo/build/classes/java/main started by honlee in /Users/honlee/Desktop/spring_jpa_guide/demo)
+2023-12-31 14:59:59 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-12-31 14:59:59 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-31 14:59:59 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-31 14:59:59 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-31 14:59:59 [restartedMain] INFO  : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-12-31 14:59:59 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2023-12-31 14:59:59 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-31 14:59:59 [restartedMain] INFO  : Starting service [Tomcat]
+2023-12-31 14:59:59 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-31 14:59:59 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-12-31 14:59:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 650 ms
+2023-12-31 14:59:59 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-12-31 14:59:59 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5958f6ee
+2023-12-31 14:59:59 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-12-31 14:59:59 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test'
+2023-12-31 15:00:00 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-31 15:00:00 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-31 15:00:00 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2023-12-31 15:00:00 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-31 15:00:00 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-31 15:00:00 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-31 15:00:00 [restartedMain] DEBUG : 5 mappings in 'requestMappingHandlerMapping'
+2023-12-31 15:00:00 [restartedMain] DEBUG : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-31 15:00:00 [restartedMain] DEBUG : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-31 15:00:00 [restartedMain] DEBUG : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-31 15:00:00 [restartedMain] INFO  : LiveReload server is running on port 35729
+2023-12-31 15:00:00 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-12-31 15:00:00 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2023-12-31 15:00:00 [restartedMain] INFO  : Started DemoApplication in 2.17 seconds (process running for 2.435)
+2023-12-31 15:00:09 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-31 15:00:09 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : Detected StandardServletMultipartResolver
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : Detected AcceptHeaderLocaleResolver
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : Detected FixedThemeResolver
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@383cad97
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e71b321
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-12-31 15:00:09 [http-nio-8080-exec-1] INFO  : Completed initialization in 4 ms
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : GET "/member/all", parameters={}
+2023-12-31 15:00:09 [http-nio-8080-exec-1] DEBUG : Mapped to com.example.demo.controller.MemberController#getAll()
+2023-12-31 15:00:10 [http-nio-8080-exec-1] DEBUG : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-12-31 15:00:10 [http-nio-8080-exec-1] DEBUG : Writing [[com.example.demo.entity.Member@6bf26e79, com.example.demo.entity.Member@4ff034ee]]
+2023-12-31 15:00:10 [http-nio-8080-exec-1] DEBUG : Completed 200 OK
+2023-12-31 15:00:10 [http-nio-8080-exec-1] INFO  : request = LogFilter.RequestLog(traceId=143dc20a-8811-4cd0-bdcc-f34eb4eda91a, uri=/member/all, method=GET, token=null, body=, params={})
+2023-12-31 15:00:10 [http-nio-8080-exec-1] INFO  : response = LogFilter.ResponseLog(traceId=143dc20a-8811-4cd0-bdcc-f34eb4eda91a, statusCode=200, body=[{"id":1,"nickname":"SW","role":"ROLE_DEV","createdAt":"2023-12-31T15:00:00.741654"},{"id":2,"nickname":"Honlee","role":"ROLE_USER","createdAt":"2023-12-31T15:00:00.751814"}])
+2023-12-31 15:00:55 [restartedMain] INFO  : Starting DemoApplication using Java 17.0.2 with PID 86623 (/Users/honlee/Desktop/spring_jpa_guide/demo/build/classes/java/main started by honlee in /Users/honlee/Desktop/spring_jpa_guide/demo)
+2023-12-31 15:00:55 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-12-31 15:00:55 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-31 15:00:55 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-31 15:00:55 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-31 15:00:55 [restartedMain] INFO  : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2023-12-31 15:00:56 [restartedMain] INFO  : Tomcat initialized with port 8080 (http)
+2023-12-31 15:00:56 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-31 15:00:56 [restartedMain] INFO  : Starting service [Tomcat]
+2023-12-31 15:00:56 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-31 15:00:56 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-12-31 15:00:56 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 661 ms
+2023-12-31 15:00:56 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-12-31 15:00:56 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@669e3ab4
+2023-12-31 15:00:56 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-12-31 15:00:56 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test'
+2023-12-31 15:00:56 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-31 15:00:56 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-31 15:00:56 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2023-12-31 15:00:56 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-31 15:00:56 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-31 15:00:57 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-31 15:00:57 [restartedMain] DEBUG : 5 mappings in 'requestMappingHandlerMapping'
+2023-12-31 15:00:57 [restartedMain] DEBUG : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-31 15:00:57 [restartedMain] DEBUG : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-31 15:00:57 [restartedMain] DEBUG : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-31 15:00:57 [restartedMain] INFO  : LiveReload server is running on port 35729
+2023-12-31 15:00:57 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-12-31 15:00:57 [restartedMain] INFO  : Tomcat started on port 8080 (http) with context path ''
+2023-12-31 15:00:57 [restartedMain] INFO  : Started DemoApplication in 2.183 seconds (process running for 2.558)
+2023-12-31 15:01:09 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-31 15:01:09 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Detected StandardServletMultipartResolver
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Detected AcceptHeaderLocaleResolver
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Detected FixedThemeResolver
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ead5018
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Detected org.springframework.web.servlet.support.SessionFlashMapManager@73f865b8
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-12-31 15:01:09 [http-nio-8080-exec-1] INFO  : Completed initialization in 2 ms
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : GET "/member/all", parameters={}
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Mapped to com.example.demo.controller.MemberController#getAll()
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Writing [[com.example.demo.entity.Member@36654f28, com.example.demo.entity.Member@766ad185]]
+2023-12-31 15:01:09 [http-nio-8080-exec-1] DEBUG : Completed 200 OK
+2023-12-31 15:01:09 [http-nio-8080-exec-1] INFO  : request = LogFilter.RequestLog(traceId=b7fbdb63-5869-4633-b5ab-616dea4957ae, uri=/member/all, method=GET, token=null, body=, params={})
+2023-12-31 15:01:09 [http-nio-8080-exec-1] INFO  : response = LogFilter.ResponseLog(traceId=b7fbdb63-5869-4633-b5ab-616dea4957ae, statusCode=200, body=[{"id":1,"nickname":"SW","role":"ROLE_DEV","createdAt":"2023-12-31T15:00:57.113228"},{"id":2,"nickname":"Honlee","role":"ROLE_USER","createdAt":"2023-12-31T15:00:57.123608"}])
+2023-12-31 15:02:06 [Test worker] INFO  : Starting DemoApplicationTests using Java 17.0.2 with PID 86689 (started by honlee in /Users/honlee/Desktop/spring_jpa_guide/demo)
+2023-12-31 15:02:06 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-12-31 15:02:06 [Test worker] DEBUG : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48284d0e
+2023-12-31 15:02:06 [Test worker] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-31 15:02:06 [Test worker] INFO  : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-12-31 15:02:06 [Test worker] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-31 15:02:06 [Test worker] INFO  : HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-31 15:02:07 [Test worker] INFO  : HHH000026: Second-level cache disabled
+2023-12-31 15:02:07 [Test worker] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-31 15:02:07 [Test worker] INFO  : HikariPool-1 - Starting...
+2023-12-31 15:02:07 [Test worker] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40c28b0d
+2023-12-31 15:02:07 [Test worker] INFO  : HikariPool-1 - Start completed.
+2023-12-31 15:02:07 [Test worker] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-31 15:02:07 [Test worker] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-31 15:02:07 [Test worker] DEBUG : 5 mappings in 'requestMappingHandlerMapping'
+2023-12-31 15:02:07 [Test worker] DEBUG : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-31 15:02:07 [Test worker] DEBUG : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-31 15:02:07 [Test worker] DEBUG : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-31 15:02:08 [Test worker] INFO  : Started DemoApplicationTests in 1.657 seconds (process running for 2.108)
+2023-12-31 15:02:08 [SpringApplicationShutdownHook] DEBUG : Closing org.springframework.web.context.support.GenericWebApplicationContext@48284d0e, started on Sun Dec 31 15:02:06 KST 2023
+2023-12-31 15:02:08 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-31 15:02:08 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-12-31 15:02:08 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
